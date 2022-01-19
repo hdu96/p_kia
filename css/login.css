@@ -1,0 +1,175 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, figure, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'kiaM';
+  src: url("../font/KIA_Fonts/KIA_Medium.ttf") format("truetype");
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .head {
+    padding: 0px 20px;
+    border-top: 7px solid #05141f;
+  }
+  .head .logo {
+    width: 128px;
+  }
+  .head .logo h2 {
+    margin: 20px 0;
+  }
+  .head .logo h2 img {
+    width: 100%;
+  }
+  .inner {
+    border-top: 1px solid #dedede;
+  }
+  .inner .innerbox {
+    padding: 25px 20px;
+  }
+  .inner .innerbox .ibox {
+    max-width: 400px;
+  }
+  .inner .innerbox .ibox h3 {
+    color: #666;
+    padding-bottom: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+  }
+  .inner .innerbox .ibox h3 strong::before {
+    content: no-open-quote;
+    width: 4px;
+    height: 4px;
+    margin: 6px 6px 0 0;
+    display: inline-block;
+    background: #999;
+    border-radius: 3px;
+    vertical-align: top;
+  }
+  .inner .innerbox .inputbox {
+    margin-bottom: 5px;
+  }
+  .inner .innerbox .inputbox input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 12px;
+  }
+  .inner .innerbox .btnbox {
+    margin-top: 10px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inner .innerbox .btnbox .loginbox {
+    width: 100%;
+    height: 55px;
+    outline: none;
+    background-color: #000;
+  }
+  .inner .innerbox .btnbox .loginbox .btntxt {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .inner .innerbox .i_p_search {
+    font-size: 13px;
+    text-align: center;
+    color: #666;
+    line-height: 1.9;
+    padding-top: 20px;
+  }
+  .inner .innerbox .i_p_search a {
+    color: #05141F;
+    font-weight: 600;
+  }
+  .inner .langbox {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 40px 20px 10px;
+    border-top: 1px solid #dedede;
+  }
+  .inner .langbox .lang {
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+  }
+  .inner .langbox .lang a span {
+    padding: 0 10px 0 4px;
+    border: 1px solid #dedede;
+  }
+  .inner .langbox .lang a span img {
+    margin-left: 20px;
+  }
+  .inner .copyright {
+    padding: 0px 0px 13px;
+    text-align: center;
+  }
+  .inner .copyright .c_txt {
+    color: #666;
+    font-size: 11px;
+  }
+  .infobox {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+  }
+  .infobox .i_box {
+    color: #fff;
+    padding: 6px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .infobox .i_box .infotxt {
+    padding: 8px 0;
+  }
+}
+/*# sourceMappingURL=login.css.map */
