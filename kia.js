@@ -57,7 +57,6 @@ $('.i_closer').click(function(){
 
 
 
-
 function slide(){
     const swiper = new Swiper(".mySwiper", {
         loop:true,
@@ -146,7 +145,36 @@ function slide(){
             prevEl: ".swiper-button-prev",
         },
     });
+    var swiper7 = new Swiper(".mySwiper7", {
+        loop:true,
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        
+        pagination: {
+            el: ".swiper-pagination7",
+            type: "fraction",
+        },
+    });
+    var swiper8 = new Swiper(".mySwiper8", {
+        loop:true,
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+    });
 }
 
 window.onload=slide;
     
+
+$('.showroomBtn').click(function(){
+    $('.mySwiper8').addClass('showopen');
+    $('.txt_op').addClass('showopen');
+    $('.mySwiper7').addClass('galleryclose');
+});
+$('.closebox').click(function(){
+    $('.mySwiper8').removeClass('showopen');
+    $('.mySwiper7').removeClass('galleryclose').slideDown();
+})
